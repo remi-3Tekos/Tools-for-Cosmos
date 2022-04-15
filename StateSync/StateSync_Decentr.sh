@@ -2,7 +2,7 @@
 # Based on the work of Joe (Chorus-One) for Microtick - https://github.com/microtick/bounties/tree/main/statesync
 # Updated by Raul Bernal for Bitcanna - https://github.com/BitCannaCommunity/cosmos-statesync_client
 # Adapted for Decentr - RPC by Badger Bite and 3Tekos 
-# You need config in two peers (avoid seed servers) this values in app.toml:
+# ours statesync config:
 #     [state-sync]
 #     snapshot-interval = 1000
 #     snapshot-keep-recent = 10
