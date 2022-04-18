@@ -6,8 +6,6 @@
 #     [state-sync]
 #     snapshot-interval = 100
 #     snapshot-keep-recent = 10
-# Pruning should be fine tuned also, for this testings is set to nothing
-#     pruning = "nothing"
 
 # Let's check if JQ tool is installed
 FILE=$(which jq)
