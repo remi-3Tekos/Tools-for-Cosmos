@@ -75,7 +75,7 @@ then
   echo "#  Temporaly search and replace this params with this values     #"
   echo "##################################################################"
   echo ""
-  echo "persistent_peers = \"${NODE1_ID}@${NODE1_IP}:${P2P_PORT1},${NODE2_ID}@${NODE2_IP}:${P2P_PORT2}\""
+  echo "persistent_peers = \"${NODE1_ID}@${NODE1_IP}:${P2P_PORT1}\""
   echo ""
   echo "Go to -StateSync section-"
   echo "========================="
