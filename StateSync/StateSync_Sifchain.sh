@@ -22,7 +22,7 @@ echo "Welcome to the StateSync script."
 echo "This script will give you the info to configure StateSync in your validator"
 echo "You should have a encrypted backup of your wallet keys, your node keys and your validator keys."
 echo "Ensure that you can restore your wallet keys if is needed."
-echo "Also ensure that decentrd/cosmovisor service is stopped."
+echo "Also ensure that sifnoded/cosmovisor service is stopped."
 echo ""
 read -p "ATTENTION! This script will clear the data folder (unsafe-reset-all) & the Address Book PROCEED (y/n)? " -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]
