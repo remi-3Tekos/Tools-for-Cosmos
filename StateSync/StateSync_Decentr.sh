@@ -32,10 +32,10 @@ then
   echo "\nClearing the data folder & P2P Address Book"
   decentrd unsafe-reset-all
 
-  NODE1_IP="rpc.badgerbite.xyz"
+  NODE1_IP="rpc.decentr.badgerbite.xyz" 
   RPC1="https://$NODE1_IP"
-  P2P_PORT1=16656
-  RPC_PORT1=5555
+  P2P_PORT1=26656
+  RPC_PORT1=443
 
   NODE2_IP="185.163.64.156"
   RPC2="http://$NODE2_IP"
